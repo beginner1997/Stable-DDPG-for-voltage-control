@@ -23,6 +23,7 @@ class IEEE123bus(gym.Env):
         self.injection_bus = injection_bus
         self.agentnum = len(injection_bus)
         self.v0 = v0 
+        
         self.vmax = vmax 
         self.vmin = vmin
         
