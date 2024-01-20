@@ -75,7 +75,6 @@ if args.env_name == '13bus3p':
         plr = 5e-5
 
 
-
 obs_dim = env.obs_dim
 action_dim = env.action_dim
 hidden_dim = 100
@@ -183,7 +182,7 @@ elif (FLAG ==1):
     num_steps = 30  
     if args.env_name =='123bus':
         num_steps = 60
-    if args.env_name =='eu-lv':
+    if args.env_name =='eu-lv': 
         num_steps = 30
         # num_episodes *= 2
     if args.env_name =='13bus3p':
